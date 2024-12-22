@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rembo Hub</title>
+    
+     <!-- Icons -->
+   <script src="https://unpkg.com/@phosphor-icons/web"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="product styles.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../sidebar.css">
+</head>
+<body>
+    <!-- Header Section  -->
+    <header>
+        <!-- Toggle button  --> 
+        <div class="toggle-btn" >
+            <i class="icon">☰</i>
+        </div>
+
+        <div class="header-container">
+            <div class="logo">Rembo Hub</div>
+        </div> 
+
+        <!-- <div class="header-container">
+            <div class="logo">NeoMkrt</div>
+        </div>  -->
+      </header>
+
+    <div class="top-container">
+        
+
+         <!-- sidebar -->
+         <div class="sidebar">
+
+            <div class="sidebar-content">
+    
+               <div class="nav">
+                   <ul class="menu">
+                    <li class="top">
+                        <a href="../index.html"><i class="icon ph-bold ph-house"></i ><span class="text">Home</span></a>
+                    </li>
+                       <li class="top"><a href="#"><i class="icon ph-bold ph-storefront"></i><span class="text">Shope</span><i class="arrow ph-bold ph-caret-down"></i></a>
+    
+                           <ul class="sub-menu">
+                            <li>
+                               <a href="index.html">
+                                   <span class="text">Rembo Hub</span>
+                               </a>
+                            </li>
+                            <li>
+                               <a href="#">
+                                   <span class="text">Chambi's Store</span>
+                               </a>
+                            </li>
+                            <li>
+                                <a href="index.html">
+                                    <span class="text">Rembo Hub</span>
+                                </a>
+                             </li>
+                             
+                                                     
+                         </ul>
+                     <li class="top"><a href="#"><i class="icon ph-bold ph-shield-check"></i><span class="text"> About NeoMrkt</span></a></li>
+    
+                       <li class="top"><a href="#"><i class="icon ph-bold ph-truck"></i><span class="text"> How We Deliver</span></a></li>
+    
+                   </ul>
+    
+               
+               </div>
+    
+               <ul class="menu">
+                   <li class="top"><a href="#"><i class="icon ph-bold ph-star"></i><span class="text"> Reviews</span></a></li>
+               </ul>
+    
+               <ul class="menu">
+                   <li class="top"><a href="#"><i class="icon ph-bold ph-envelope-simple"></i><span class="text"> Contact Us</span></a>
+                    
+                   </li>
+    
+                   <li class="top"><a href="#"><i class="icon ph-bold ph-info"></i><span class="text"> Help</span></a></li>
+    
+                   <li class="top">    
+                   </a></li>
+               </ul>
+    
+            
+           </div>
+     </div>
+        
+         
+         
+         <!-- THE TOP BAR - search bar, cart  -->
+           <div class="top-bar">
+               <div class="search-bar">
+                   <input type="text" placeholder="I'm looking for..." />
+                   <span class="search-icon"><i class="fas fa-search"></i></span>
+                </div>                
+             <a class="cart" href="cart.html">
+                      <i class="icon ph-bold ph-shopping-cart"></i>
+                      <span class="cart-count">0</span>
+              </a>
+                
+           </div>
+       
+         <!-- Scrool side bar -->
+        <div class="scroll-bar">
+           <div class="categories">
+               <div class="category-item">All</div>
+               <div class="category-item">Electronics</div>
+               <div class="category-item">Apliance</div>
+               <div class="category-item">Beauty</div>
+               <div class="category-item">Toys</div> 
+               <div class="category-item">Jewelery</div> 
+               <div class="category-item">Funiture</div> 
+               <div class="category-item">Electronics</div>
+               <div class="category-item">Apliance</div>
+               <div class="category-item">Beauty</div>
+               <div class="category-item">Toys</div> 
+               <div class="category-item">Jewelery</div> 
+               <div class="category-item">Funiture</div>
+               <div class="category-item">Toys</div> 
+               <div class="category-item">Jewelery</div> 
+               <div class="category-item">Funiture</div> 
+               <div class="category-item">Electronics</div>
+               <div class="category-item">Apliance</div>
+               <div class="category-item">Beauty</div>
+               <div class="category-item">Toys</div> 
+               <div class="category-item">Jewelery</div> 
+               <div class="category-item">Funiture</div>
+           </div>
+        </div>
+
+        <!-- the side bar -->
+
+    </div>
+    
+
+    <!-- All the product listing  -->
+    <div class="listProduct"></div>
+    
+
+    <!-- success notification  -->
+    <div id="successNotification" class="notification">
+        <div class="circle"></div>
+        <div class="message"></div>
+    </div>
+
+    <!-- Whatsapp notification -->
+    <a href="https://wa.me/+254769047082" class="whatsapp-button pulse-animation" target="blank"><i class="ph-bold ph-whatsapp-logo">whatsapp</i></a>
+
+
+    <script src="listProduct.JS"></script>
+    <script src="sidebar.js"></script>
+</body>
+</html>
